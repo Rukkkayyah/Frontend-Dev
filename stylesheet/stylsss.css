@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox {
+    margin: 0 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.class1 {
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+
+.class2 {
+    background-color: green;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+.class3 {
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+.class4 {
+    background-color: brown;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    text-align: center;
+}
+
+
+.class5 {
+    background-color: yellow;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+
+.class6 {
+    background-color: purple;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}

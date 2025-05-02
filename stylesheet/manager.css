@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --Neutral-7: hsl(227, 75%, 14%);
+    --Neutral-6: hsl(226, 25%, 17%);
+    --Neutral-5: hsl(225, 23%, 24%);
+    --Neutral-4: hsl(226, 11%, 37%);
+    --Neutral-3: hsl(0, 0%, 78%);
+    --Neutral-2: hsl(217, 61%, 90%);
+    --Neutral-1: hsl(0, 0%, 93%);
+    --Neutral-0: hsl(200, 60%, 99%);
+    --Red-1: hsl(3, 86%, 64%);
+    --Red-2: hsl(3, 71%, 56%);
+    --Red-3: hsl(3, 77%, 44%);
+    --Light-1: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    --Dark-2: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+
+/* .extensions-list {
+    background-color: var(--Neutral-7);
+} */
+
+.img {
+    border: 1px solid var(--Neutral-5);
+    border-radius: 2rem;
+}
+
+
+.List {
+    color: var(--Neutral-1);
+}
+
+.header {
+    display: flex;
+    padding: 0 3rem;
+}
+
+.exten {
+    align-items: ;
+}
+
+.all {
+    align-items: end;
+    padding: .5rem .7rem;
+    border: 1px solid var(--Red-2);
+    border-radius: 1.5rem;
+    background-color: var(--Red-2);
+    color: var(--Neutral-6);
+}
+
+.active {
+    padding: .5rem 1rem;
+    border: 1px solid var(--Neutral-7);
+    border-radius: 1rem;
+    background-color: var(--Neutral-4);
+    color: var(--Neutral-3);
+}
+
+.inactive {
+    padding: .5rem 1rem;
+    border: 1px solid var(--Neutral-7);
+    border-radius: 1rem;
+    background-color: var(--Neutral-4);
+    color: var(--Neutral-3);
+}
+
+.item {
+    max-width: 1440px;
+    margin: 2rem;
+    display: grid;
+    grid-template-areas:
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "item7 item8 item9"
+        "item10 item11 item12";
+    grid-auto-columns: 1fr;
+    gap: .2rem;
+}
+
+.item1 .quote,
+.item2 .quote,
+.item3 .quote,
+.item4 .quote,
+.item5 .quote,
+.item6 .quote,
+.item7 .quote,
+.item8 .quote,
+.item9 .quote,
+.item10 .quote,
+.item11 .quote,
+.item12 .quote {
+    padding-left: .5rem;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12 {
+    display: flex;
+    /* background-color: var(--Neutral-6); */
+    border: 1px solid var(--Neutral-4);
+    border-radius: .7rem;
+    padding: 1.5rem 2rem;
+}
+
+.item1 .upper-quote,
+.item2 .upper-quote,
+.item3 .upper-quote,
+.item4 .upper-quote,
+.item5 .upper-quote,
+.item6 .upper-quote,
+.item7 .upper-quote,
+.item8 .upper-quote,
+.item9 .upper-quote,
+.item10 .upper-quote,
+.item11 .upper-quote,
+.item12 .upper-quote {
+    color: var(--Neutral-1);
+    padding-bottom: .7rem;
+}
+
+.item1 .bottom-quote,
+.item2 .bottom-quote,
+.item3 .bottom-quote,
+.item4 .bottom-quote,
+.item5 .bottom-quote,
+.item6 .bottom-quote,
+.item7 .bottom-quote,
+.item8 .bottom-quote,
+.item9 .bottom-quote,
+.item10 .bottom-quote,
+.item11 .bottom-quote,
+.item12 .bottom-quote {
+    color: var(--Neutral-3);
+    padding-bottom: 3rem;
+}
+
+.item1 .side-quote,
+.item2 .side-quote,
+.item3 .side-quote,
+.item4 .side-quote,
+.item5 .side-quote,
+.item6 .side-quote,
+.item7 .side-quote,
+.item8 .side-quote,
+.item9 .side-quote,
+.item10 .side-quote,
+.item11 .side-quote,
+.item12 .side-quote {
+    border: 1px solid var(--Neutral-6);
+    border-radius: 1rem;
+    background-color: var(--Neutral-5);
+    padding: .5rem .7rem;
+}
+
+.item1 .box-icon,
+.item2 .box-icon,
+.item3 .box-icon,
+.item4 .box-icon,
+.item5 .box-icon,
+.item6 .box-icon,
+.item7 .box-icon,
+.item8 .box-icon,
+.item9 .box-icon,
+.item10 .box-icon,
+.item11 .box-icon,
+.item12 .box-icon {
+    color: var(--Neutral-1);
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+:root {
+    --FIGTREE: "figtree";
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray: hsl(0, 0%, 42%);
+    --Gray2: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    width: 360px;
+    height: 450px;
+    margin: 20rem 35rem;
+    border: 1px solid var(--Gray);
+    border-radius: 1.5rem;
+    border-right: 7px solid var(--Gray2);
+    border-bottom: 7px solid var(--Gray2);
+    background-color: var(--White);
+}
+
+.product-details {
+    margin: 0 .8rem;
+    font-family: var(--FIGTREE);
+}
+
+.button {
+    background-color: var(--Yellow);
+    padding: .2rem .5rem;
+    font-weight: 900;
+    border: 1px solid var(--Yellow);
+
+}
+
+.para {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: small;
+    color: var(--Gray);
+}
+
+.header {
+    padding-bottom: .7rem;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.note {
+    padding-bottom: .2rem;
+    color: var(--Gray);
+}
+
+.name {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.p {
+    padding-top: .5rem;
+    padding-left: .7rem;
+    font-size: small;
+    color: var(--Gray2);
+    font-weight: 900;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+}
